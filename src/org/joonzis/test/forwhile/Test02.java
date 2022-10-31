@@ -16,9 +16,14 @@ public class Test02 {
 		System.out.println("단수 입력 >> ");
 		int dan = sc.nextInt();
 		
+		System.out.println("<for문>");
 		for(int i=1; i<=9; i++) {
 			System.out.println(dan + "X" + i + "=" + (dan*i));
 		}
+		
+		System.out.println("");
+		System.out.println("<while문>");
+		
 		
 		int num = 1;
 		while(num < 10) {

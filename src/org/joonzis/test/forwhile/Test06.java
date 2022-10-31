@@ -30,7 +30,7 @@ public class Test06 {
 			
 		}
 		
-		
+		System.out.println("-------------");
 		
 		// -- do-while 사용
 		do {

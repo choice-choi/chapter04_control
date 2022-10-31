@@ -17,5 +17,12 @@ public class Test01 {
 			num--;
 		}
 		
+		
+		
+		int num1=10;
+		while(num1>=1) {
+			System.out.println(num1);
+			
+		}
 	}
 }

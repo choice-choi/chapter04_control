@@ -11,6 +11,7 @@ public class Ex03_while {
 			num++; //num=num+1;
 		}
 		
+		System.out.println("===========================");
 		
 		int num2 = 0;
 		while(true) {
@@ -22,4 +23,4 @@ public class Ex03_while {
 		}
 	}
 	
-
+}

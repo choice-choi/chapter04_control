@@ -47,6 +47,8 @@ public class Ex07_continue {
 			System.out.println(num);
 		}
 		
+		System.out.println("---------");
+		
 		// 2. 1~10 출력(for) (홀수만 출력)
 		for(int i=1; i<=10; i++) {
 			if(i%2==0) {
