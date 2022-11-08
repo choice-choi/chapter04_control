@@ -16,10 +16,12 @@ public class Test06 {
 		System.out.println("2 이상의 정수 입력 >> ");
 		selNum = sc.nextInt();
 		
-		while(selNum < 2) {
+		while(selNum < 2) {			//2이상이 아니어서 다시 입력 받는 코드
 			System.out.println("2 이상의 정수 입력 >> ");
 			selNum = sc.nextInt();
 		}
+		
+		System.out.println("-------------");
 		
 		while(true) {
 			System.out.println("2 이상의 정수 입력 >> ");

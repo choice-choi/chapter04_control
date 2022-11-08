@@ -16,6 +16,9 @@ public class Test06 {
 		
 		System.out.println("문자 입력 >> ");
 		char ch = sc.next().charAt(0);
+		// str이 가리키고 있는 문자열에서 0번째에 있는 문자를
+		// char타입으로 변환한다는 의미가 되겠다.
+		// 그러니까 안녕하세요 에서 0번째(맨 첫 번째)문자인 '안'만 가져오는 것
 		
 		if(ch>='A' && ch<='Z') {
 			System.out.println(ch+=32);

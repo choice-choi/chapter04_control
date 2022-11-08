@@ -11,26 +11,29 @@ public class test06 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int num = 0;
-		int total = 0;
+		int sum = 0;
+		int selNum = 0;
 		
 		while(true) {
 			System.out.println("2이상의 정수를 입력하세요 >> ");
-			int num1 = sc.nextInt();
+			selNum = sc.nextInt();
 					
-			if(num1 < 2) {
-				System.out.println("***다시 입력하세요***");
-				continue;
+			if(selNum >= 2) {
+				break;
 			}
-
-			total = total + num1;
-			
-			System.out.println("현재 합계 : " + total);
-			
 		}
+		System.out.println(selNum);
 		
 		
+		do {
+			System.out.println("2이상의 정수를 입력하세요 >> ");
+			selNum = sc.nextInt();
+			System.out.println(selNum);
+		}while(selNum < 2);
 		
+		for(int i=1; i<=selNum; i++) {
+			sum = sum + i;
+		}
+		System.out.println("1부터 " + selNum + "까지의 합은 : " + sum);
 	}
-
 }

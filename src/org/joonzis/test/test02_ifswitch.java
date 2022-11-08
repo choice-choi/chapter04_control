@@ -23,7 +23,7 @@ public class test02_ifswitch {
 		//평균 구하는 로직 
 		double avg = (num1+num2) / 2.0;	// 필기, 실기의 평균
 		
-		// 1) 
+		// 1) 논리식 사용
 		if(num1>=70 && num2>=70) {
 			System.out.println("합격");
 		}else if(avg >= 80) {	//평균 구하는 로직 필요
@@ -32,16 +32,16 @@ public class test02_ifswitch {
 			System.out.println("불합격");
 		}
 		
-		// 2)
+		// 2) 논리식 사용
 		if((num1>=70 && num2>=70) || (avg >= 80)) {
 			System.out.println("합격");
 		}else {
 			System.out.println("불합격");
 		}
 		
-		// 3)
-		if(num1>=70) {
-			if(num2>=70)
+		// 3) 논리식 사용X
+		if(num1>=70) {		// 필기 70이상
+			if(num2>=70)	// 실기 70이상
 			System.out.println("합격");
 		}else if(avg >= 80) {	//평균 구하는 로직 필요
 			System.out.println("합격");

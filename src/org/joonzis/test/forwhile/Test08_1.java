@@ -2,7 +2,7 @@ package org.joonzis.test.forwhile;
 
 import java.util.Scanner;
 
-public class Test08 {
+public class Test08_1 {
 	public static void main(String[] args) {
 		/*
 		Test08.java
@@ -23,16 +23,17 @@ public class Test08 {
 			총 4회만에 성공! -------count사용하여 출력
 			*/
 		
+		int ans = 40;
+		int count = 0;
+		int num = 0;
+		
 		Scanner sc = new Scanner(System.in);
-
-		int count = 0;	// 횟수
-		int ans = 17;	// 정답
-		int num=0;		// 입력 값
-
+		
 		while(true) {
-			System.out.print("1~100 사이의 숫자 입력 >> ");
-			num = sc.nextInt();	// 숫자 입력, 80입력할경우 down나와야하는 출력으로 만들 예정
-			count++;	// 횟수 증가
+			
+			System.out.println("1 ~ 100 사이 숫자 입력 >> ");
+			num = sc.nextInt();
+			count++;
 			
 			if(num > ans) {
 				System.out.println("Down!");
@@ -43,9 +44,8 @@ public class Test08 {
 				System.out.println("총 "+ count+"회 만에 성공!");
 				break;
 			}
+		
 		}
-		
-		
 		
 		
 		
